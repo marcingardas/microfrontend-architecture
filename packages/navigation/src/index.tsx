@@ -12,4 +12,4 @@ class Timetable extends HTMLElement {
 	}
 }
 
-window.customElements.define('module-timetable', Timetable);
+window.customElements.define('module-navigation', Timetable);

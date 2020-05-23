@@ -36,7 +36,7 @@ module.exports = {
                             namedExport: true,
                             exportOnlyLocals: true,
                             allowSyntheticDefaultImports: true,
-                            localIdentName: '[path][name]__[local]--[hash:base64:5]'
+                            localIdentName: 'module-navigation-[name]__[local]--[hash:base64:5]'
                         }
                     }
                 ]
