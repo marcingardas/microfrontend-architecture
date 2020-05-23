@@ -36,7 +36,7 @@ module.exports = {
                             namedExport: true,
                             exportOnlyLocals: true,
                             allowSyntheticDefaultImports: true,
-                            localIdentName: 'module-timetable-[name]__[local]--[hash:base64:5]'
+                            localIdentName: 'module-settings-[name]__[local]--[hash:base64:5]'
                         }
                     }
                 ]

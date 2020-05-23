@@ -10,4 +10,8 @@ cd packages/timetable && yarn && yarn build:watch &
 P4=$!
 cd packages/timetable && yarn serve &
 P5=$!
-wait $P1 $P2 $P3 $P4 $P5
+cd packages/settings && yarn && yarn build:watch &
+P6=$!
+cd packages/settings && yarn serve &
+P7=$!
+wait $P1 $P2 $P3 $P4 $P5 $P6 $P7
