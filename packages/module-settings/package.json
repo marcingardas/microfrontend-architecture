@@ -8,11 +8,6 @@
         "registry": "https://npm.pkg.github.com/",
         "access": "public"
     },
-    "repository": {
-        "type": "git",
-        "url": "ssh://git@github.com/@marcingardas/microfrontend-architecture.git",
-        "directory": "packages/module-settings"
-    },
     "scripts": {
         "build": "webpack",
         "build:watch": "webpack --watch",
@@ -33,5 +28,5 @@
         "webpack": "^4.43.0",
         "webpack-cli": "^3.3.11"
     },
-    "gitHead": "39d1951fd0601c22648f196becc0c5dace906c9c"
+    "gitHead": "ef5af569c78876326d9556f5e6db31f0e3794596"
 }
