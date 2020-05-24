@@ -8,6 +8,10 @@ module.exports = {
         extensions: [".ts", ".tsx", ".js", ".jsx"]
     },
 
+    output: {
+        filename: "index.js"
+    },
+
     module: {
         rules: [
             {

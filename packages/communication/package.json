@@ -7,14 +7,15 @@
         "access": "public"
     },
     "repository": "https://github.com/marcingardas/microfrontend-architecture.git",
-    "main": "dist/main.js",
-    "types": "dist/main.d.js",
+    "main": "dist/index.js",
+    "types": "dist/index.d.js",
     "files": [
         "dist"
     ],
     "scripts": {
         "build": "webpack",
         "build:watch": "webpack --watch",
+        "clean": "rm -rf ./dist",
         "prepare": "yarn build"
     },
     "devDependencies": {
