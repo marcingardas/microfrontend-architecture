@@ -8,21 +8,17 @@
     },
     "repository": "https://github.com/marcingardas/microfrontend-architecture.git",
     "main": "dist/index.js",
-    "types": "dist/index.d.js",
+    "types": "dist/index.d.ts",
     "files": [
         "dist"
     ],
     "scripts": {
-        "build": "webpack",
-        "build:watch": "webpack --watch",
+        "build": "tsc -p tsconfig.build.json",
         "clean": "rm -rf ./dist",
         "prepare": "yarn build"
     },
     "devDependencies": {
-        "ts-loader": "^7.0.4",
-        "typescript": "^3.9.3",
-        "webpack": "^4.43.0",
-        "webpack-cli": "^3.3.11"
+        "typescript": "^3.9.3"
     },
     "gitHead": "a3392fcb280dd652f2e5bca8b42f24da0d865d2e"
 }
