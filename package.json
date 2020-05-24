@@ -2,7 +2,12 @@
     "name": "microfrontend-architecture",
     "private": false,
     "publishConfig": {
+        "registry":"https://npm.pkg.github.com/",
         "access": "public"
+    },
+    "repository" : {
+        "type" : "git",
+        "url": "ssh://git@github.com/@marcingardas/microfrontend-architecture.git"
     },
     "devDependencies": {
         "lerna": "^3.21.0",

@@ -4,7 +4,13 @@
     "main": "index.js",
     "author": "marcingardas",
     "publishConfig": {
+        "registry":"https://npm.pkg.github.com/",
         "access": "public"
+    },
+    "repository" : {
+        "type" : "git",
+        "url": "ssh://git@github.com/@marcingardas/microfrontend-architecture.git",
+        "directory": "packages/container"
     },
     "scripts": {
         "serve": "lite-server"
@@ -12,5 +18,5 @@
     "devDependencies": {
         "lite-server": "^2.5.4"
     },
-    "gitHead": "a7ac146484f5fc96f72c11220bc463fdeae9725e"
+    "gitHead": "79804f84dd55dfacd60660966a2345cf6221a944"
 }
