@@ -20,6 +20,8 @@ export class UrlService implements UrlInterface {
 
     public addChangeListener(listener: UrlChangeListener): void {
         window.addEventListener(UrlChangeEventName, (event: any) => {
+            console.log(event)
+
             const urlChangeEvent: UrlChangeEvent = event
 
             listener(urlChangeEvent.url);
