@@ -4,12 +4,7 @@ import { UrlService } from '@marcingardas/communication'
 
 const App = () => {
     const changePage = (url: string): void => {
-        UrlService.change(url)
-        /*
-        window.history.replaceState('', pageTitle, state);
-        var popStateEvent = new PopStateEvent('popstate', { state });
-        dispatchEvent(popStateEvent);
-        */
+        new UrlService().change(url)
     }
 
     return (

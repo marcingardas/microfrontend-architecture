@@ -1,5 +1,6 @@
 import * as React from 'react'
 import * as styles from './index.module.css'
+import { UrlService, UrlChangeListener } from '@marcingardas/communication'
 
 type Props = {};
 type State = {
@@ -15,15 +16,13 @@ class App extends React.Component<Props, State> {
         }
     }
 
-    changePage(pageTitle: string, state: string): void {
-        window.history.replaceState('', pageTitle, state);
-        var popStateEvent = new PopStateEvent('popstate', { state });
-        dispatchEvent(popStateEvent);
+    changePage = (url: string): void => {
+        new UrlService().change(url)
     }
 
     componentDidMount() {
-        window.addEventListener('popstate', (event) => {
-            if (event.state.search(/users\/?.*/i) >= 0) {
+        const urlChangeListener: UrlChangeListener = (url: string): void => {
+            if (url.search(/users\/?.*/i) >= 0) {
                 this.setState({
                     visible: true,
                 });
@@ -34,7 +33,9 @@ class App extends React.Component<Props, State> {
             this.setState({
                 visible: false,
             });
-        })
+        }
+
+        new UrlService().addChangeListener(urlChangeListener)
     }
 
     render() {
@@ -47,7 +48,7 @@ class App extends React.Component<Props, State> {
         return (
             <div className={styles.wrapper}>
                 <div className={styles.text}
-                    onClick={() => this.changePage('User 24', 'users/24')}>
+                    onClick={() => this.changePage('users/24')}>
                     User 24
                 </div>
             </div>
