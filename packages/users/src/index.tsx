@@ -2,7 +2,7 @@ import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import App from './components/App'
 
-class Timetable extends HTMLElement {
+class Users extends HTMLElement {
 	connectedCallback() {
 		ReactDOM.render((
 			<React.StrictMode>
@@ -12,4 +12,4 @@ class Timetable extends HTMLElement {
 	}
 }
 
-window.customElements.define('module-timetable', Timetable);
+window.customElements.define('module-users', Users);

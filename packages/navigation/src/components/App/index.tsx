@@ -12,8 +12,8 @@ const App = () => {
         <div className={styles.wrapper}>
             <div className={styles.navigation}>
                 <div className={styles.navigationItem}
-                    onClick={() => changePage('Timetable', 'timetable')}>
-                    Timetable
+                    onClick={() => changePage('Users', 'users')}>
+                    Users
                 </div>
                 <div className={styles.navigationItem}
                     onClick={() => changePage('Settings', 'settings')}>

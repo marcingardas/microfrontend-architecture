@@ -17,13 +17,14 @@ class App extends React.Component<Props, State> {
 
     componentDidMount() {
         window.addEventListener('popstate', (event) => {
-            if (event.state === 'timetable') {
+            if (event.state === 'users') {
                 this.setState({
                     visible: true,
                 });
 
                 return;
             }
+
             this.setState({
                 visible: false,
             });
@@ -40,7 +41,7 @@ class App extends React.Component<Props, State> {
         return (
             <div className={styles.wrapper}>
                 <div className={styles.text}>
-                    This is the timetable module
+                    This is the users module
                 </div>
             </div>
         )

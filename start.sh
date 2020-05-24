@@ -6,9 +6,9 @@ cd packages/navigation && yarn && yarn build:watch &
 P2=$!
 cd packages/navigation && yarn serve &
 P3=$!
-cd packages/timetable && yarn && yarn build:watch &
+cd packages/users && yarn && yarn build:watch &
 P4=$!
-cd packages/timetable && yarn serve &
+cd packages/users && yarn serve &
 P5=$!
 cd packages/settings && yarn && yarn build:watch &
 P6=$!
