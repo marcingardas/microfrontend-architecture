@@ -1,6 +1,6 @@
 {
     "name": "@microfrontend-architecture/module-users",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "main": "index.js",
     "author": "marcingardas",
     "license": "MIT",
