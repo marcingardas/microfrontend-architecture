@@ -1,1 +1,1 @@
-# modular-frontend-architecture
+# microfrontend-architecture
