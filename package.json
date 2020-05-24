@@ -1,6 +1,9 @@
 {
     "name": "microfrontend-architecture",
-    "private": true,
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
     "devDependencies": {
         "lerna": "^3.21.0",
         "lite-server": "^2.5.4"

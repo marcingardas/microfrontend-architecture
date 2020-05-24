@@ -3,11 +3,14 @@
     "version": "0.1.2",
     "main": "index.js",
     "author": "marcingardas",
+    "publishConfig": {
+        "access": "public"
+    },
     "scripts": {
         "serve": "lite-server"
     },
     "devDependencies": {
         "lite-server": "^2.5.4"
     },
-    "gitHead": "91467f1028ebd049208537dbad46a51deb8cf2b6"
+    "gitHead": "a7ac146484f5fc96f72c11220bc463fdeae9725e"
 }
