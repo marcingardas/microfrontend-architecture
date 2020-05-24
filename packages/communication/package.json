@@ -1,13 +1,17 @@
 {
     "name": "@marcingardas/communication",
     "version": "0.1.15",
-    "main": "index.js",
     "author": "marcingardas",
     "license": "MIT",
     "publishConfig": {
         "access": "public"
     },
     "repository": "https://github.com/marcingardas/microfrontend-architecture.git",
+    "main": "dist/index.js",
+    "types": "dist/index.d.js",
+    "files": [
+        "dist"
+    ],
     "scripts": {
         "build": "webpack",
         "build:watch": "webpack --watch",
