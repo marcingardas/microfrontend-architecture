@@ -2,7 +2,7 @@ import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import App from './components/App'
 
-class Users extends HTMLElement {
+class ModuleSettings extends HTMLElement {
 	connectedCallback() {
 		ReactDOM.render((
 			<React.StrictMode>
@@ -12,4 +12,4 @@ class Users extends HTMLElement {
 	}
 }
 
-window.customElements.define('module-users', Users);
+window.customElements.define('module-settings', ModuleSettings);

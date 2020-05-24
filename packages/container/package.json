@@ -1,4 +1,7 @@
 {
+    "name": "@marcingardas/container",
+    "main": "index.js",
+    "author": "marcingardas",
     "scripts": {
         "serve": "lite-server"
     },

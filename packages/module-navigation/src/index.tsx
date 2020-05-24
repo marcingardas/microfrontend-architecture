@@ -2,7 +2,7 @@ import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import App from './components/App'
 
-class Navigation extends HTMLElement {
+class ModuleNavigation extends HTMLElement {
 	connectedCallback() {
 		ReactDOM.render((
 			<React.StrictMode>
@@ -12,4 +12,4 @@ class Navigation extends HTMLElement {
 	}
 }
 
-window.customElements.define('module-navigation', Navigation);
+window.customElements.define('module-navigation', ModuleNavigation);
