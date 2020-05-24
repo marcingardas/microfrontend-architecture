@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/module-users",
-    "version": "0.1.14",
+    "version": "0.1.15",
     "main": "index.js",
     "author": "marcingardas",
     "license": "MIT",
