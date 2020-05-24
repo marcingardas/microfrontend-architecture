@@ -14,6 +14,7 @@
         "serve": "lite-server"
     },
     "devDependencies": {
+        "@marcingardas/communication": "^0.1.0",
         "@types/react": "^16.9.35",
         "@types/react-dom": "^16.9.8",
         "css-loader": "1.0",

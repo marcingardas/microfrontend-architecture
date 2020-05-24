@@ -1,0 +1,22 @@
+{
+    "name": "@marcingardas/communication",
+    "version": "0.1.1",
+    "main": "index.js",
+    "author": "marcingardas",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": "https://github.com/marcingardas/microfrontend-architecture.git",
+    "scripts": {
+        "build": "webpack",
+        "build:watch": "webpack --watch"
+    },
+    "devDependencies": {
+        "ts-loader": "^7.0.4",
+        "typescript": "^3.9.3",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
+    },
+    "gitHead": "e23f0afc68c71440cbe28718a4a46211bf7615ae"
+}
