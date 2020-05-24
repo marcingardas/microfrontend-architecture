@@ -11,7 +11,7 @@
     "scripts": {
         "build": "webpack",
         "build:watch": "webpack --watch",
-        "prepare": "build"
+        "prepare": "yarn build"
     },
     "devDependencies": {
         "ts-loader": "^7.0.4",
@@ -19,5 +19,5 @@
         "webpack": "^4.43.0",
         "webpack-cli": "^3.3.11"
     },
-    "gitHead": "e23f0afc68c71440cbe28718a4a46211bf7615ae"
+    "gitHead": "a3392fcb280dd652f2e5bca8b42f24da0d865d2e"
 }
