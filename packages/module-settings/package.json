@@ -1,6 +1,6 @@
 {
     "name": "@microfrontend-architecture/module-settings",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "main": "index.js",
     "author": "marcingardas",
     "license": "MIT",
