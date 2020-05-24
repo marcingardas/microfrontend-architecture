@@ -7,7 +7,7 @@ type UrlChangeEvent = {
 const UrlChangeEventName = 'communication.url.change'
 
 export class UrlService implements UrlInterface {
-    change(url: string): void {
+    public change(url: string): void {
         window.history.replaceState('', '', url);
 
         const urlChangeEvent: UrlChangeEvent = {
@@ -18,7 +18,7 @@ export class UrlService implements UrlInterface {
         dispatchEvent(customEvent);
     }
 
-    addChangeListener(listener: UrlChangeListener): void {
+    public addChangeListener(listener: UrlChangeListener): void {
         window.addEventListener(UrlChangeEventName, (event: any) => {
             const urlChangeEvent: UrlChangeEvent = event
 
