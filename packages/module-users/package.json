@@ -1,5 +1,5 @@
 {
-    "name": "module-users",
+    "name": "@marcingardas/module-users",
     "version": "0.1.9",
     "main": "index.js",
     "author": "marcingardas",
@@ -7,6 +7,7 @@
     "publishConfig": {
         "access": "public"
     },
+    "repository": "https://github.com/marcingardas/microfrontend-architecture.git",
     "scripts": {
         "build": "webpack",
         "build:watch": "webpack --watch",
@@ -27,5 +28,5 @@
         "webpack": "^4.43.0",
         "webpack-cli": "^3.3.11"
     },
-    "gitHead": "84e5be88ddbf6a9b5a567942a39787463cc655cd"
+    "gitHead": "240fee78d35623349491d6f2771c2653fa4b322a"
 }
