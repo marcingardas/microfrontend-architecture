@@ -10,7 +10,8 @@
     "repository": "https://github.com/marcingardas/microfrontend-architecture.git",
     "scripts": {
         "build": "webpack",
-        "build:watch": "webpack --watch"
+        "build:watch": "webpack --watch",
+        "prepare": "build"
     },
     "devDependencies": {
         "ts-loader": "^7.0.4",
