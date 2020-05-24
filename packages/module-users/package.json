@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/module-users",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "main": "index.js",
     "author": "marcingardas",
     "license": "MIT",
@@ -23,5 +23,6 @@
         "typings-for-css-modules-loader": "^1.7.0",
         "webpack": "^4.43.0",
         "webpack-cli": "^3.3.11"
-    }
+    },
+    "gitHead": "91467f1028ebd049208537dbad46a51deb8cf2b6"
 }

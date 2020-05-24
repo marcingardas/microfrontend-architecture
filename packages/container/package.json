@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/container",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "main": "index.js",
     "author": "marcingardas",
     "scripts": {
@@ -8,5 +8,6 @@
     },
     "devDependencies": {
         "lite-server": "^2.5.4"
-    }
+    },
+    "gitHead": "91467f1028ebd049208537dbad46a51deb8cf2b6"
 }
