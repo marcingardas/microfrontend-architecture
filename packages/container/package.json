@@ -4,7 +4,6 @@
     "main": "index.js",
     "author": "marcingardas",
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/",
         "access": "public"
     },
     "scripts": {
@@ -13,5 +12,5 @@
     "devDependencies": {
         "lite-server": "^2.5.4"
     },
-    "gitHead": "22bbd026537dfb18c0d3a6449d51dfdf19532c21"
+    "gitHead": "84e5be88ddbf6a9b5a567942a39787463cc655cd"
 }
