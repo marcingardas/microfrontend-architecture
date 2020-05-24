@@ -1,0 +1,8 @@
+{
+    "port": 3103,
+    "baseDir": "./dist",
+    "server": {
+        "baseDir": "./dist"
+    },
+    "open": false
+}

@@ -1,8 +1,18 @@
 .wrapper {
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: 50px;
     height: calc(100% - 50px);
     width: 100%;
+}
+
+.innerWrapper {
+    display: flex;
+    padding: 32px;
+    background-color: beige;
+    box-shadow: 0 0 6px -6px black;
 }
 
 .text {
@@ -10,5 +20,4 @@
     font-family: sans-serif;
     font-size: 16px;
     color: #242424;
-    cursor: pointer;
 }

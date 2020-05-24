@@ -15,15 +15,9 @@ class App extends React.Component<Props, State> {
         }
     }
 
-    changePage(pageTitle: string, state: string): void {
-        window.history.replaceState('', pageTitle, state);
-        var popStateEvent = new PopStateEvent('popstate', { state });
-        dispatchEvent(popStateEvent);
-    }
-
     componentDidMount() {
         window.addEventListener('popstate', (event) => {
-            if (event.state.search(/users\/?.*/i) >= 0) {
+            if (event.state.search(/users\/\d+/i) >= 0) {
                 this.setState({
                     visible: true,
                 });
@@ -46,9 +40,10 @@ class App extends React.Component<Props, State> {
 
         return (
             <div className={styles.wrapper}>
-                <div className={styles.text}
-                    onClick={() => this.changePage('User 24', 'users/24')}>
-                    User 24
+                <div className={styles.innerWrapper}>
+                    <div className={styles.text}>
+                        This is the user module
+                    </div>
                 </div>
             </div>
         )

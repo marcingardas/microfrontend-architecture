@@ -3,7 +3,7 @@ import * as styles from './index.module.css'
 
 const App = () => {
     const changePage = (pageTitle: string, state: string): void => {
-        window.history.pushState('', pageTitle, state);
+        window.history.replaceState('', pageTitle, state);
         var popStateEvent = new PopStateEvent('popstate', { state });
         dispatchEvent(popStateEvent);
     };

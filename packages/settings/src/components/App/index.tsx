@@ -17,7 +17,7 @@ class App extends React.Component<Props, State> {
 
     componentDidMount() {
         window.addEventListener('popstate', (event) => {
-            if (event.state === 'settings') {
+            if (event.state.search(/settings\/?.*/i) >= 0) {
                 this.setState({
                     visible: true,
                 });
