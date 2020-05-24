@@ -1,5 +1,5 @@
 {
-    "name": "@microfrontend-architecture/module-settings",
+    "name": "module-settings",
     "version": "0.1.7",
     "main": "index.js",
     "author": "marcingardas",
@@ -28,5 +28,5 @@
         "webpack": "^4.43.0",
         "webpack-cli": "^3.3.11"
     },
-    "gitHead": "ef5af569c78876326d9556f5e6db31f0e3794596"
+    "gitHead": "22bbd026537dfb18c0d3a6449d51dfdf19532c21"
 }
