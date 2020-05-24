@@ -1,8 +1,10 @@
 import { UrlInterface } from './UrlInterface'
 import { UrlChangeListener } from './UrlChangeListener';
 
-type UrlChangeEvent = {
-    url: string
+type UrlChangeEventInit = {
+    detail: {
+        url: string
+    }
 }
 const UrlChangeEventName = 'communication.url.change'
 
@@ -10,8 +12,10 @@ export class UrlService implements UrlInterface {
     public change(url: string): void {
         window.history.replaceState('', '', url);
 
-        const urlChangeEvent: UrlChangeEvent = {
-            url
+        const urlChangeEvent: UrlChangeEventInit = {
+            detail: {
+                url
+            }
         }
         var customEvent = new CustomEvent(UrlChangeEventName, urlChangeEvent as any);
 
@@ -20,7 +24,7 @@ export class UrlService implements UrlInterface {
 
     public addChangeListener(listener: UrlChangeListener): void {
         window.addEventListener(UrlChangeEventName, (event: any) => {
-            listener(event.url);
+            listener(event.detail.url);
         })
     }
 }
