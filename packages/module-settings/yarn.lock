@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@marcingardas/communication@^0.1.23":
-  version "0.1.23"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/communication/0.1.23/2e8aad51f910903d3fa0ed511e645e821e1cf7fe1c5368c572b630a90fa8beee#2945552678e2b58d0f2081b1ad54af5ecbfe2722"
-  integrity sha512-yUIf4TL9WDhlwXK+pGzTKhorOq5WhDq9HwdbGSsi395AWvcH3wpReq0VloZBFePrmTtE2xM0fcQ8qPF1mZ60XA==
+"@marcingardas/communication@^0.1.24":
+  version "0.1.24"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/communication/0.1.24/c5ed3980f29c1c1b4a6356f7a4c56c35928bd07e11122ea745d48d083bbcb6d8#8ea2b0e3d9a5a0e18bbd2a1d9f96152094a5cc0a"
+  integrity sha512-a2orrMZNOIOYsAJfabC/px+S2a0cSvYGHwxLIE0ra+Iaf4lCa/ZDuPS8LSuOYrzS3NzSbDS9DFZth/h2w3NBWA==
 
 "@types/prop-types@*":
   version "15.7.3"
