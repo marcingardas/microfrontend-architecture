@@ -38,7 +38,7 @@ export function fetchUsers(): any {
         const storageService = new StorageService()
             .withModuleName('users')
 
-        let users: User[] | null = storageService.get('users')
+        let users: User[] | null = storageService.get('users') as User[]
 
         console.log('Got users from StorageService => ', users)
 

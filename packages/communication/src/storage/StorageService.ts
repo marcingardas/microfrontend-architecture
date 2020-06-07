@@ -19,7 +19,7 @@ export class StorageService implements StorageServiceInterface {
         localStorage.setItem(this.getLocalStorageKey(name), JSON.stringify(value))
     }
 
-    public get(name: string): object {
+    public get(name: string): any {
         return JSON.parse(localStorage.getItem(this.getLocalStorageKey(name)))
     }
 }
