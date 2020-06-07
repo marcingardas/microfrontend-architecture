@@ -5,12 +5,15 @@ import { createStore } from 'redux'
 import { APIService } from '@marcingardas/communication'
 
 import index from './store/reducers'
+import { fetchUsers } from './store/actions'
 import App from './components/App'
 import { ModuleUsersAPI } from './api/ModuleUsersAPI'
 
 class ModuleUsers extends HTMLElement {
 	connectedCallback() {
 		const store = createStore(index)
+
+		fetchUsers()(store.dispatch)
 
 		const moduleUsersAPI = new ModuleUsersAPI(store)
 		new APIService().set('users', moduleUsersAPI)

@@ -31,3 +31,20 @@ export function fetchUsersCompleted(users: User[]): UsersActionTypes {
         }
     }
 }
+
+export function fetchUsers(): any {
+    return function (dispatch: (action: object) => void): any {
+        const users: User[] = [
+            {
+                id: '1',
+                name: 'Marcin Gardas',
+            },
+            {
+                id: '2',
+                name: 'Some other user',
+            }
+        ]
+
+        dispatch(fetchUsersCompleted(users))
+    }
+}

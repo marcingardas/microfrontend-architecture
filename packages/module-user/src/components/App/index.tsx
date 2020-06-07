@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as styles from './index.module.css'
 import { UrlService, UrlChangeListener, APIService } from '@marcingardas/communication'
-import { ModuleUsersAPIInterface } from '@marcingardas/module-users/api/ModuleUsersAPIInterface'
+import { ModuleUsersAPIInterface } from '../../api/ModuleUsersAPIInterface'
 
 type Props = {};
 type State = {
@@ -42,7 +42,7 @@ class App extends React.Component<Props, State> {
             return <></>;
         }
 
-        const moduleUsersAPI: ModuleUsersAPIInterface = new APIService().get('users')
+        const moduleUsersAPI: ModuleUsersAPIInterface = new APIService().get('users') as ModuleUsersAPIInterface
         const users = moduleUsersAPI.getUsers()
 
         return (
