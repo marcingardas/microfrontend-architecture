@@ -11,11 +11,11 @@ const App = () => {
         <div className={styles.wrapper}>
             <div className={styles.navigation}>
                 <div className={styles.navigationItem}
-                    onClick={() => changePage('users')}>
+                    onClick={() => changePage('/users')}>
                     Users
                 </div>
                 <div className={styles.navigationItem}
-                    onClick={() => changePage('settings')}>
+                    onClick={() => changePage('/settings')}>
                     Settings
                 </div>
             </div>

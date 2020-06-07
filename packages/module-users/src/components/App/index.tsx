@@ -56,7 +56,7 @@ class App extends React.Component<ComponentProps, ComponentState> {
             <div className={styles.wrapper}>
                 {users.map((user: User) => (
                     <div className={styles.text}
-                        onClick={() => this.changePage('users/' + user.id)}>
+                        onClick={() => this.changePage('/users/' + user.id)}>
                         {user.name}
                     </div>
                 ))}

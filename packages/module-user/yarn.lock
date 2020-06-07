@@ -9,15 +9,15 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@marcingardas/communication@^0.1.26":
-  version "0.1.26"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/communication/0.1.26/edbd8f64506277c329c0fed032ec48825539d051865e10d5cd587e22b6112a3b#a653b02e6d85e4dd5eb015199dbf6ad79c77bca7"
-  integrity sha512-aquQo4QpROsp37qEc/XJj8rV2pwyPBSJDtYvpX1I6DpcNN+n2IIm6DURQSHl6NiWWT/XpotXzmd9nG3S6d0rsA==
+"@marcingardas/communication@^0.1.27":
+  version "0.1.27"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/communication/0.1.27/4f44c0cdcb2efc8a1b139b0efdd2065d27b609b85d82ca76aabc71bd6fda862b#56ccb7677e4149b1635d45449ed470eb63751a74"
+  integrity sha512-yzzO776kf1Ez8yEaklBUoGFp0Bhh+4ep5im3c5QaVO7Fc24WX/8UVVNDZrqfBCbzbrK4zC6HIJaiPKF00wiIDQ==
 
-"@marcingardas/module-users@^0.1.26":
-  version "0.1.26"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/module-users/0.1.26/c745c024e79ae75c11a6ed7a26c28f23609a5f2550d175d08ada8b5c37cceb89#338169123473b61de212d602d6403468a443b27a"
-  integrity sha512-7T0wExESyFAOVUKnd6FYSXxXtjvbbZjZC+clun2OcCVLfDIXa/QLq0d5WodoCezblNXMRn5VlFwPjQIm57DM7g==
+"@marcingardas/module-users@^0.1.27":
+  version "0.1.27"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/module-users/0.1.27/260eb6451c4dae7afc68fb0ed9ba506ba85739d262fdc5982ed1345d8ce03640#e70d4591e25b5ee0eaa614b88aa7d9ab876a2feb"
+  integrity sha512-bB2dXepF82cxdYHlr1o5YinwCTAFK5uzCkm1hs6LXR3jQKWsuvJfy0orwj/R2m/bM8tBIfuynkv1aouIPZtX0w==
   dependencies:
     "@types/react-redux" "^7.1.9"
     react-redux "^7.2.0"
