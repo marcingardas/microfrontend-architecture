@@ -4,17 +4,17 @@ import {
 	FETCH_USERS_BEGIN,
 	FETCH_USERS_ERROR,
 	FETCH_USERS_COMPLETED,
-	UsersState,
+	State,
 	UsersActionTypes
 } from './types'
 
-const initialState: UsersState = {
+const initialState: State = {
 	users: [] as Array<User>,
 	loading: false,
 	error: null,
 }
 
-export default function(state = initialState, action: UsersActionTypes): UsersState {
+export default function(state = initialState, action: UsersActionTypes): State {
 	switch (action.type) {
 	case FETCH_USERS_BEGIN:
 		return initialState

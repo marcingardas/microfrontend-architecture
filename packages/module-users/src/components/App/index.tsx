@@ -1,14 +1,20 @@
 import * as React from 'react'
-import * as styles from './index.module.css'
+import { connect } from 'react-redux'
 import { UrlService, UrlChangeListener } from '@marcingardas/communication'
 
-type Props = {}
-type State = {
+import * as styles from './index.module.css'
+import { State } from '../../store/types'
+import { User } from '../../model/User'
+
+type ComponentProps = {
+    users: User[],
+}
+type ComponentState = {
     visible: boolean,
 }
 
-class App extends React.Component<Props, State> {
-    constructor(props: object) {
+class App extends React.Component<ComponentProps, ComponentState> {
+    constructor(props: ComponentProps) {
         super(props)
 
         this.state = {
@@ -40,6 +46,7 @@ class App extends React.Component<Props, State> {
 
     render() {
         const { visible } = this.state
+        const { users } = this.props;
 
         if (!visible) {
             return <></>
@@ -47,13 +54,19 @@ class App extends React.Component<Props, State> {
 
         return (
             <div className={styles.wrapper}>
-                <div className={styles.text}
-                    onClick={() => this.changePage('users/24')}>
-                    User 24
-                </div>
+                {users.map((user: User) => (
+                    <div className={styles.text}
+                        onClick={() => this.changePage('users/' + user.id)}>
+                        {user.name}
+                    </div>
+                ))}
             </div>
         )
     }
 }
 
-export default App
+const mapStateToProps = (state: State) => ({
+    users: state.users,
+})
+
+export default connect(mapStateToProps)(App)

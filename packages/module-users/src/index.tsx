@@ -4,14 +4,14 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import { APIService } from '@marcingardas/communication'
 
-import index from './store/reducers'
+import reducers from './store/reducers'
 import { fetchUsers } from './store/actions'
 import App from './components/App'
 import { ModuleUsersAPI } from './api/ModuleUsersAPI'
 
 class ModuleUsers extends HTMLElement {
 	connectedCallback() {
-		const store = createStore(index)
+		const store = createStore(reducers)
 
 		fetchUsers()(store.dispatch)
 

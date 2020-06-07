@@ -1,5 +1,6 @@
 .wrapper {
     position: fixed;
+    left: 0px;
     top: 50px;
     height: calc(100% - 50px);
     width: 100%;

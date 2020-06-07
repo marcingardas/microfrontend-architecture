@@ -1,6 +1,6 @@
 import { User } from '../model/User'
 
-export interface UsersState {
+export interface State {
     users: User[]
     loading: boolean
     error: string | null

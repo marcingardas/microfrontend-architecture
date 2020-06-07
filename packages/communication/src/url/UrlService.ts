@@ -10,7 +10,7 @@ const UrlChangeEventName = 'communication.url.change'
 
 export class UrlService implements UrlServiceInterface {
     public change(url: string): void {
-        window.history.replaceState('', '', url);
+        window.history.replaceState(null, null, url);
 
         const urlChangeEvent: UrlChangeEventInit = {
             detail: {
