@@ -12,12 +12,14 @@
 
 .innerWrapper {
     display: flex;
+    flex-wrap: wrap;
     padding: 32px;
     background-color: beige;
     box-shadow: 0 0 6px -6px black;
 }
 
 .text {
+    width: 100%;
     padding: 24px;
     font-family: sans-serif;
     font-size: 16px;
