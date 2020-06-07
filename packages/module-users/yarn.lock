@@ -9,10 +9,10 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@marcingardas/communication@^0.2.1":
-  version "0.2.1"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/communication/0.2.1/2e34e64e8a9a49be9f1e6031f989767d452ab4053b142b01c50f56863639a4ac#25f884f1e4527b40f1598043b7d1389503fcf335"
-  integrity sha512-ABxIU6SNFXvJA6B6ZTY5YSsemNaXz9mqewyRs/Pcz6vvOx8Nzgvi2jZ9+1GwLPrbmtKf3m1ezLxsezuqHWm2DQ==
+"@marcingardas/communication@^0.2.2":
+  version "0.2.2"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/communication/0.2.2/34a78523b544e638ec35712fa307dc6d49290ac70578120e0a8652d4b121169f#2d239df7d7051cfdbaf7a3d91cc5b9aec3c9c305"
+  integrity sha512-W7wxEWf9pHQyHx7RB9LvBLPuXwE52KhEaiNlAtbuxcpnOqRTfaI4TwRdQzFxH49qyV6ceWboCOCf1YqclUYfuQ==
 
 "@types/hoist-non-react-statics@^3.3.0":
   version "3.3.1"
