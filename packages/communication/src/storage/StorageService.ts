@@ -15,7 +15,7 @@ export class StorageService implements StorageServiceInterface {
         return this
     }
 
-    public set(name: string, value: object): void {
+    public set(name: string, value: any): void {
         localStorage.setItem(this.getLocalStorageKey(name), JSON.stringify(value))
     }
 

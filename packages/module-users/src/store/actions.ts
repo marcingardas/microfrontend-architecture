@@ -53,6 +53,8 @@ export function fetchUsers(): any {
                     name: 'Some other user',
                 }
             ]
+
+            storageService.set('users', users)
         }
 
         dispatch(fetchUsersCompleted(users))
