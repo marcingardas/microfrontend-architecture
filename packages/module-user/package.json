@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/module-user",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "main": "index.js",
     "author": "marcingardas",
     "license": "MIT",
@@ -14,7 +14,7 @@
         "serve": "lite-server"
     },
     "devDependencies": {
-        "@marcingardas/communication": "^0.2.1",
+        "@marcingardas/communication": "^0.2.2",
         "@types/react": "^16.9.35",
         "@types/react-dom": "^16.9.8",
         "css-loader": "1.0",
@@ -31,6 +31,6 @@
     },
     "gitHead": "a3392fcb280dd652f2e5bca8b42f24da0d865d2e",
     "dependencies": {
-        "@marcingardas/module-users": "^0.2.1"
+        "@marcingardas/module-users": "^0.2.2"
     }
 }
