@@ -1,4 +1,5 @@
 import { User } from '../model/User'
+import { StorageService } from '@marcingardas/communication'
 
 import {
     FETCH_USERS_BEGIN,
@@ -34,16 +35,25 @@ export function fetchUsersCompleted(users: User[]): UsersActionTypes {
 
 export function fetchUsers(): any {
     return function (dispatch: (action: object) => void): any {
-        const users: User[] = [
-            {
-                id: '1',
-                name: 'Marcin Gardas',
-            },
-            {
-                id: '2',
-                name: 'Some other user',
-            }
-        ]
+        const storageService = new StorageService()
+            .withModuleName('users')
+
+        let users: User[] | null = storageService.get('users')
+
+        console.log('Got users from StorageService => ', users)
+
+        if (!users) {
+            users = [
+                {
+                    id: '1',
+                    name: 'Marcin Gardas',
+                },
+                {
+                    id: '2',
+                    name: 'Some other user',
+                }
+            ]
+        }
 
         dispatch(fetchUsersCompleted(users))
     }
