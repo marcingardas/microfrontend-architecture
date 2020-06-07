@@ -6,7 +6,7 @@ export class StorageService implements StorageServiceInterface {
     private moduleName
 
     private getLocalStorageKey(name: string) {
-        return StoragePrefix + this.moduleName + name
+        return StoragePrefix + this.moduleName + '.' + name
     }
 
     public withModuleName(moduleName: string): StorageServiceInterface {

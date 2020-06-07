@@ -1,6 +1,6 @@
 import { APIServiceInterface } from './APIServiceInterface'
 
-const APIPrefix = 'api.'
+const APIPrefix = 'communication.api.'
 
 export class APIService implements APIServiceInterface {
     public set(moduleName: string, api: object): void {

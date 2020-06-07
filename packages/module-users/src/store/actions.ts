@@ -54,6 +54,7 @@ export function fetchUsers(): any {
                 }
             ]
 
+            console.log('setting users in local storage => ', users)
             storageService.set('users', users)
         }
 
