@@ -9,7 +9,7 @@ export class StorageService implements StorageServiceInterface {
         return StoragePrefix + this.moduleName + name
     }
 
-    public withModuleName(moduleName: string): void {
+    constructor(moduleName: string) {
         this.moduleName = moduleName
     }
 
