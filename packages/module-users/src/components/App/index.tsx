@@ -2,14 +2,14 @@ import * as React from 'react'
 import * as styles from './index.module.css'
 import { UrlService, UrlChangeListener } from '@marcingardas/communication'
 
-type Props = {};
+type Props = {}
 type State = {
     visible: boolean,
-};
+}
 
 class App extends React.Component<Props, State> {
     constructor(props: object) {
-        super(props);
+        super(props)
 
         this.state = {
             visible: false,
@@ -25,24 +25,24 @@ class App extends React.Component<Props, State> {
             if (url.search(/users\/?.*/i) >= 0) {
                 this.setState({
                     visible: true,
-                });
+                })
 
-                return;
+                return
             }
 
             this.setState({
                 visible: false,
-            });
+            })
         }
 
         new UrlService().addChangeListener(urlChangeListener)
     }
 
     render() {
-        const { visible } = this.state;
+        const { visible } = this.state
 
         if (!visible) {
-            return <></>;
+            return <></>
         }
 
         return (

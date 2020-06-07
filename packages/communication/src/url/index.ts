@@ -1,3 +1,3 @@
 export * from './UrlChangeListener'
-export * from './UrlInterface'
+export * from './UrlServiceInterface'
 export * from './UrlService'
