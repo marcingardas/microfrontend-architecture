@@ -1,6 +1,7 @@
 import * as React from 'react'
 import * as styles from './index.module.css'
-import { UrlService, UrlChangeListener } from '@marcingardas/communication'
+import { UrlService, UrlChangeListener, APIService } from '@marcingardas/communication'
+import { ModuleUsersAPIInterface } from '@marcingardas/module-users/api/ModuleUsersAPIInterface'
 
 type Props = {};
 type State = {
@@ -41,11 +42,16 @@ class App extends React.Component<Props, State> {
             return <></>;
         }
 
+        const moduleUsersAPI: ModuleUsersAPIInterface = new APIService().get('users')
+        const users = moduleUsersAPI.getUsers()
+
         return (
             <div className={styles.wrapper}>
                 <div className={styles.innerWrapper}>
                     <div className={styles.text}>
                         This is the user module
+
+                        This is the data I got form users module: {JSON.stringify(users)}
                     </div>
                 </div>
             </div>

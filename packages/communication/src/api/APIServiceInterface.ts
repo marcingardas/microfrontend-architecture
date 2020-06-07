@@ -1,4 +1,4 @@
 export interface APIServiceInterface {
-    set(api: object): void
-    get(): object
+    set(moduleName: string, api: object): void
+    get(moduleName: string): object
 }

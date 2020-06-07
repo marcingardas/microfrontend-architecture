@@ -2,7 +2,7 @@ import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
-import { StorageService } from '@marcingardas/communication'
+import { APIService } from '@marcingardas/communication'
 
 import index from './store/reducers'
 import App from './components/App'
@@ -13,8 +13,7 @@ class ModuleUsers extends HTMLElement {
 		const store = createStore(index)
 
 		const moduleUsersAPI = new ModuleUsersAPI(store)
-		const storageService = new StorageService().withModuleName('users')
-		storageService.set('api', moduleUsersAPI)
+		new APIService().set('users', moduleUsersAPI)
 
 		ReactDOM.render((
 			<React.StrictMode>
