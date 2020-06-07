@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/module-user",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "main": "index.js",
     "author": "marcingardas",
     "license": "MIT",
@@ -31,6 +31,6 @@
     },
     "gitHead": "a3392fcb280dd652f2e5bca8b42f24da0d865d2e",
     "dependencies": {
-        "@marcingardas/module-users": "^0.2.2"
+        "@marcingardas/module-users": "^0.2.3"
     }
 }
