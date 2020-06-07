@@ -1,6 +1,7 @@
 import { User } from '../model/User'
 
+export const ModuleUsersAPIName = 'users'
+
 export interface ModuleUsersAPIInterface {
-    getModuleName(): string
     getUsers(): Array<User>
 }

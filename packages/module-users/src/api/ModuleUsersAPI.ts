@@ -9,10 +9,6 @@ export class ModuleUsersAPI implements ModuleUsersAPIInterface {
         this.store = store
     }
 
-    getModuleName(): string {
-        return 'users'
-    }
-
     getUsers(): Array<User> {
         return this.store.getState().users
     }

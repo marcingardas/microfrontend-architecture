@@ -2,7 +2,8 @@ import * as React from 'react'
 import * as styles from './index.module.css'
 import { UrlService, UrlChangeListener, APIService } from '@marcingardas/communication'
 
-import { ModuleUsersAPIInterface } from '../../api/ModuleUsersAPIInterface'
+import { ModuleUsersAPIInterface, ModuleUsersAPIName } from '../../api/ModuleUsersAPIInterface'
+import { ModuleSettingsAPIInterface, ModuleSettingsAPIName } from '../../api/ModuleSettingsAPIInterface'
 
 type Props = {};
 type State = {
@@ -48,17 +49,25 @@ class App extends React.Component<Props, State> {
             return <></>;
         }
 
-        const moduleUsersAPI: ModuleUsersAPIInterface = new APIService().get('users') as ModuleUsersAPIInterface
+        const moduleUsersAPI: ModuleUsersAPIInterface = new APIService().get(ModuleUsersAPIName) as ModuleUsersAPIInterface
         const users = moduleUsersAPI.getUsers()
 
         const user = users.find((user) => user.id === userId)
+
+        const moduleSettingsAPI: ModuleSettingsAPIInterface = new APIService().get(ModuleSettingsAPIName) as ModuleSettingsAPIInterface
+        const timezone = moduleSettingsAPI.getTimezone()
 
         return (
             <div className={styles.wrapper}>
                 <div className={styles.innerWrapper}>
                     <div className={styles.text}>
-                        This is the users data from <b>module-users</b>:<br />
-                        {JSON.stringify(users)}
+                        This is the data from <b>module-users</b>:<br />
+                        Users: {JSON.stringify(users)}
+                    </div>
+
+                    <div className={styles.text}>
+                        This is the data from <b>module-settings</b>:<br />
+                        Timezone: <b>{timezone}</b>
                     </div>
 
                     <div className={styles.text}>

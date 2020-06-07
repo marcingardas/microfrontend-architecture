@@ -8,6 +8,7 @@ import reducers from './store/reducers'
 import { fetchUsers } from './store/actions'
 import App from './components/App'
 import { ModuleUsersAPI } from './api/ModuleUsersAPI'
+import { ModuleUsersAPIName } from './api/ModuleUsersAPIInterface'
 
 class ModuleUsers extends HTMLElement {
 	connectedCallback() {
@@ -16,7 +17,7 @@ class ModuleUsers extends HTMLElement {
 		fetchUsers()(store.dispatch)
 
 		const moduleUsersAPI = new ModuleUsersAPI(store)
-		new APIService().set('users', moduleUsersAPI)
+		new APIService().set(ModuleUsersAPIName, moduleUsersAPI)
 
 		ReactDOM.render((
 			<React.StrictMode>
