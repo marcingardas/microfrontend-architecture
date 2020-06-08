@@ -13,21 +13,11 @@
         "@marcingardas/module-settings": "^0.2.6",
         "@marcingardas/module-user": "^0.2.6",
         "@marcingardas/module-users": "^0.2.6",
-        "@testing-library/jest-dom": "^4.2.4",
-        "@testing-library/react": "^9.3.2",
-        "@testing-library/user-event": "^7.1.2",
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
         "react-scripts": "3.4.1"
     },
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
+        "build": "react-scripts build"
     },
     "browserslist": {
         "production": [
