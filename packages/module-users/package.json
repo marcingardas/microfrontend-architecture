@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/module-users",
-    "version": "0.2.4",
+    "version": "0.2.5",
     "main": "dist/index.js",
     "author": "marcingardas",
     "license": "MIT",
@@ -16,7 +16,7 @@
         "prepare": "yarn build"
     },
     "devDependencies": {
-        "@marcingardas/communication": "^0.2.4",
+        "@marcingardas/communication": "^0.2.5",
         "@types/react": "^16.9.35",
         "@types/react-dom": "^16.9.8",
         "css-loader": "1.0",
