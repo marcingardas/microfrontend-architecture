@@ -1,7 +1,7 @@
 {
-  "name": "container-alternative",
+  "name": "@marcingardas/container-alternative",
   "version": "0.2.4",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@marcingardas/module-navigation": "^0.2.4",
     "@marcingardas/module-settings": "^0.2.4",
