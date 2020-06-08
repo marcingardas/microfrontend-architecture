@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/communication",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "author": "marcingardas",
     "license": "MIT",
     "publishConfig": {
@@ -20,5 +20,5 @@
     "devDependencies": {
         "typescript": "^3.9.3"
     },
-    "gitHead": "ae73984043af8ac74b0c11078cfa12ad1ad18885"
+    "gitHead": "bc060e1b2266ae362a8645be6b3216f025c9bf26"
 }
