@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/module-navigation",
-    "version": "0.2.5",
+    "version": "0.2.6",
     "main": "dist/main.js",
     "author": "marcingardas",
     "license": "MIT",
@@ -16,7 +16,7 @@
         "prepare": "yarn build"
     },
     "devDependencies": {
-        "@marcingardas/communication": "^0.2.5",
+        "@marcingardas/communication": "^0.2.6",
         "@types/react": "^16.9.35",
         "@types/react-dom": "^16.9.8",
         "css-loader": "1.0",
