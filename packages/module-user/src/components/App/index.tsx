@@ -50,7 +50,7 @@ class App extends React.Component<Props, State> {
         }
 
         const moduleUsersAPI: ModuleUsersAPIInterface = new APIService().get(ModuleUsersAPIName) as ModuleUsersAPIInterface
-        const users = moduleUsersAPI.getUsers()
+        const users: User[] = moduleUsersAPI.getUsers()
 
         const user = users.find((user) => user.id === userId)
 
