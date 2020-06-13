@@ -37,11 +37,10 @@ Here's a diagram describing the relationship between the packages:
 - Separate development
 
 ## Drawbacks of this architecture
-- Lower performance: packages used in multiple modules are loaded multiple times (once for each module)
-- Package conflicts: different package versions in different modules can conflict and cause unexpected behaviour
+- Shared packed version restrictions: only a single version of package can be shared between modules
+- Non-shared package conflicts: different package versions in different modules can conflict and cause unexpected behaviour
 
-## An alternative to address drawbacks
-An alternative way of architecturing the application is to import the packages into the container and compile the application into a single bundle. The drawbacks of this are:
+## An alternative architecture
+An alternative way of architecturing the application (demonstrated in `container-alternative` package) is to import the module packages into the container and compile the application into a single bundle. This has drawbacks:
 - No separate deployments
 - No separate development (slower development)
-- All modules will have to use a single version of frameworks/libraries (there will be no conflicts though)
