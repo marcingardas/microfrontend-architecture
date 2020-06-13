@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/module-user",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "main": "dist/main.js",
     "author": "marcingardas",
     "license": "MIT",
@@ -33,6 +33,6 @@
     },
     "gitHead": "7e765443f907bb207912f8f1a4104d5f3f20fa8b",
     "dependencies": {
-        "@marcingardas/module-users": "^0.3.3"
+        "@marcingardas/module-users": "^0.3.4"
     }
 }

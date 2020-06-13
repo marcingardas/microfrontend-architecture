@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/module-settings",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "main": "dist/main.js",
     "author": "marcingardas",
     "license": "MIT",
