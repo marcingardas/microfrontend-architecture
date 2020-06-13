@@ -14,10 +14,10 @@
   resolved "https://npm.pkg.github.com/download/@marcingardas/communication/0.3.1/47e4f4f43632de184994edfddd65dad346b51bfa653e94d4a52a6a5c33d2c808#6c6ad371e23f2ce2917413e0ea0f7eca4e8a393e"
   integrity sha512-o06bHFiPAEf8JayT6N3DxAuoY7heVyb1b9QDpZvEI5vpuwrYXSfWC4IElaXhQUlkD65zR/G3dOetaqqypPLI4Q==
 
-"@marcingardas/module-users@^0.3.1":
-  version "0.3.1"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/module-users/0.3.1/e005a925382cc322bcd14d021bb258ef4fa74a298a2ec5c246c2682dfe409cbf#09acdbdf24d3763f1335ae84bc2e191fbfe1ec01"
-  integrity sha512-pv/ATMbHMgW22Lb9VqDzV6D4nlBPKK+k4ysI4XEXnIl4F57/G8G+3Oe5Sb3TCCUH8z/RFHIQLOsxHWQMtudqdw==
+"@marcingardas/module-users@^0.3.4":
+  version "0.3.4"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/module-users/0.3.4/5ea00665728e2cf701c5cf922ac6303952dda19c3dc09b8ed930ab5cac7bacbb#452af2d7967764115a952cbd582169678783b0d0"
+  integrity sha512-TkGGD8UxzJb5uil6pN8MW+yycHgBnY5513ikoqBSlULWDcBbUTM3KNNH9/i/WVDnZcet3Fyg5skpwpZbBhmizw==
   dependencies:
     "@types/react-redux" "^7.1.9"
     react-redux "^7.2.0"
