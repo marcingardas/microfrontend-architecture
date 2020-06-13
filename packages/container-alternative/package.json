@@ -13,6 +13,8 @@
         "@marcingardas/module-settings": "^0.3.3",
         "@marcingardas/module-user": "^0.3.3",
         "@marcingardas/module-users": "^0.3.3",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
         "react-scripts": "3.4.1"
     },
     "scripts": {
@@ -31,5 +33,5 @@
             "last 1 safari version"
         ]
     },
-    "gitHead": "2ac03efcada853c4876c7676a629100c2e1cc985"
+    "gitHead": "7e765443f907bb207912f8f1a4104d5f3f20fa8b"
 }

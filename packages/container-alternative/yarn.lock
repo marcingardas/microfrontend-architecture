@@ -1268,27 +1268,27 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@marcingardas/module-navigation@^0.2.6":
-  version "0.2.6"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/module-navigation/0.2.6/28d553f84aa073019266af150468ff39d5a0ad1c1ce4f4fd4df078f90418e88a#edae10cd2c7ccf838aa2e8104debca3e5a166a56"
-  integrity sha512-RL4++y3+9VRQMiqUZz/19BwXxuOAmJFcR+grMfkLFWgI4btYhGr78MbCwHlWh/nmUMlz8gFoxoUgEQgg/mxb2w==
+"@marcingardas/module-navigation@^0.3.3":
+  version "0.3.1"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/module-navigation/0.3.1/0de168b9b3415345058af2d6563f4642c5fc765c6f6dc51d0c7110e60b1c8d45#4592abac5ae998b20a0878c28087d16fffcaa169"
+  integrity sha512-p+QQdhZjew7gsc2GaRK7IAJ0KQ2o0w80wo0R1B/64ixfCKKn68rvvTrY/Odk5BDQRy5XjWuuHWquSETdb6YC6A==
 
-"@marcingardas/module-settings@^0.2.6":
-  version "0.2.6"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/module-settings/0.2.6/60a865856778d24001dd68e08e97644968008bb94b19520a4526f8c20943b6ca#92e704618a5839307e3057315406b4d84e71d88a"
-  integrity sha512-MToV0vMdLBNNGg2b6wPkB9TOE31i9/euf7LTJsbgwAsN36n9hK/8WmOQVsprPnC5tw86lhfinDhMKPUUm0e7oQ==
+"@marcingardas/module-settings@^0.3.3":
+  version "0.3.1"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/module-settings/0.3.1/fd9d5229e6df1fae12d11923c6a834e84da70af4fce0b42c6c39654183272627#3d17d8155f7479a93d9a4a45851cfb1806c7af90"
+  integrity sha512-YZ+WLeiRCWJ9Gcrvaof0q3bVMaadryCTTelGbDzRzt+0uhIEjy66NcmMFyT/vo1I2gJ51JeqirozJPasyfBKsQ==
 
-"@marcingardas/module-user@^0.2.6":
-  version "0.2.6"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/module-user/0.2.6/f6e3fbb68953dc7a5ea4154d2f7fe0c027bd74a99e5d0faa83a0d9851a7e2e91#602150531e286c0f045eaa552560471cc802d34e"
-  integrity sha512-CPeKGAYAeLzgFhHFX/wQH/H2sbp6zZKRO1AOlQCsgiuuSnUVsLRNQ9hww/tp51k65QaH32auJjtfVEClrqmIxQ==
+"@marcingardas/module-user@^0.3.3":
+  version "0.3.1"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/module-user/0.3.1/14fb184a36889e40ab4ff747737dec06932919d5162f3626bce6501942468165#d4700e6d17bfc0c15dbc62b554e71b88a9b583a4"
+  integrity sha512-Q+rxk2ma8q3Y24WFz5x2yjxSEDHXAhc35jPIxyqkG2rUZa1PWlubb5W6t7RTs66UXQpkVg0QvGBnmC3AaMIJZA==
   dependencies:
-    "@marcingardas/module-users" "^0.2.6"
+    "@marcingardas/module-users" "^0.3.1"
 
-"@marcingardas/module-users@^0.2.6":
-  version "0.2.6"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/module-users/0.2.6/40bc1eeeb2845e0a46dbd67b9a80f70bae10670d4cf9728cb0fe7c2b71cfd4b1#5354fb812beeac8e7c30c2105e7f63c6ce80ced3"
-  integrity sha512-SUPrjMiFVfXm1lFUi0AUufBvG44jgmTB+yx6Kfe1i/YsaimksK/EpQ3FyFJ7zgWOVb5REkb78IKDcYMpVYLkeQ==
+"@marcingardas/module-users@^0.3.1", "@marcingardas/module-users@^0.3.3":
+  version "0.3.1"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/module-users/0.3.1/e005a925382cc322bcd14d021bb258ef4fa74a298a2ec5c246c2682dfe409cbf#09acdbdf24d3763f1335ae84bc2e191fbfe1ec01"
+  integrity sha512-pv/ATMbHMgW22Lb9VqDzV6D4nlBPKK+k4ysI4XEXnIl4F57/G8G+3Oe5Sb3TCCUH8z/RFHIQLOsxHWQMtudqdw==
   dependencies:
     "@types/react-redux" "^7.1.9"
     react-redux "^7.2.0"
@@ -6437,7 +6437,7 @@ loglevel@^1.6.6:
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.7.tgz#b3e034233188c68b889f5b862415306f565e2c56"
   integrity sha512-cY2eLFrQSAfVPhCgH1s7JI73tMbg9YC3v3+ZHVW67sBS7UxWzNEk/ZBbSfLykBWHp33dqqtOv82gjhKEi81T/A==
 
-loose-envify@^1.0.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -8289,7 +8289,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.7.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8485,6 +8485,16 @@ react-dev-utils@^10.2.1:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
+react-dom@^16.13.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
+  integrity sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.19.1"
+
 react-error-overlay@^6.0.7:
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
@@ -8565,6 +8575,15 @@ react-scripts@3.4.1:
     workbox-webpack-plugin "4.3.1"
   optionalDependencies:
     fsevents "2.1.2"
+
+react@^16.13.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
+  integrity sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
@@ -9048,6 +9067,14 @@ saxes@^3.1.9:
   integrity sha512-Ydydq3zC+WYDJK1+gRxRapLIED9PWeSuuS41wqyoRmzvhhh9nc+QQrVMKJYzJFULazeGhzSV0QleN2wD3boh2g==
   dependencies:
     xmlchars "^2.1.1"
+
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
+  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 schema-utils@^1.0.0:
   version "1.0.0"
