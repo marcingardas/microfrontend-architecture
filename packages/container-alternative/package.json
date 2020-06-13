@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/container-alternative",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "author": "marcingardas",
     "license": "MIT",
     "publishConfig": {
@@ -9,10 +9,10 @@
     "repository": "https://github.com/marcingardas/microfrontend-architecture.git",
     "private": false,
     "dependencies": {
-        "@marcingardas/module-navigation": "^0.3.2",
-        "@marcingardas/module-settings": "^0.3.2",
-        "@marcingardas/module-user": "^0.3.2",
-        "@marcingardas/module-users": "^0.3.2",
+        "@marcingardas/module-navigation": "^0.3.3",
+        "@marcingardas/module-settings": "^0.3.3",
+        "@marcingardas/module-user": "^0.3.3",
+        "@marcingardas/module-users": "^0.3.3",
         "react-scripts": "3.4.1"
     },
     "scripts": {
