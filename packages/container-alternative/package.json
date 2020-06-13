@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/container-alternative",
-    "version": "0.3.4",
+    "version": "0.3.5",
     "author": "marcingardas",
     "license": "MIT",
     "publishConfig": {
@@ -11,7 +11,7 @@
     "dependencies": {
         "@marcingardas/module-navigation": "^0.3.4",
         "@marcingardas/module-settings": "^0.3.4",
-        "@marcingardas/module-user": "^0.3.4",
+        "@marcingardas/module-user": "^0.3.5",
         "@marcingardas/module-users": "^0.3.4",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
