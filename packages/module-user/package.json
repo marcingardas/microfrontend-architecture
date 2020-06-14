@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/module-user",
-    "version": "0.4.5",
+    "version": "0.4.6",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [
@@ -21,7 +21,7 @@
     },
     "devDependencies": {
         "@marcingardas/communication": "^0.4.0",
-        "@marcingardas/module-settings": "^0.4.5",
+        "@marcingardas/module-settings": "^0.4.6",
         "@marcingardas/module-users": "^0.4.0",
         "@types/react": "^16.9.35",
         "@types/react-dom": "^16.9.8",
@@ -39,6 +39,6 @@
     },
     "gitHead": "98918669d1baac9e18f9abc6c352fdf4a236c5af",
     "dependencies": {
-        "@marcingardas/module-users": "^0.4.5"
+        "@marcingardas/module-users": "^0.4.6"
     }
 }
