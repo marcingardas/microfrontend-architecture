@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/module-user",
-    "version": "0.4.7",
+    "version": "0.5.0",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [
@@ -20,7 +20,7 @@
         "prepare": "yarn build"
     },
     "devDependencies": {
-        "@marcingardas/communication": "^0.4.7",
+        "@marcingardas/communication": "^0.5.0",
         "@types/react": "^16.9.35",
         "@types/react-dom": "^16.9.8",
         "css-loader": "1.0",
@@ -37,6 +37,6 @@
     },
     "gitHead": "98918669d1baac9e18f9abc6c352fdf4a236c5af",
     "dependencies": {
-        "@marcingardas/module-users": "^0.4.7"
+        "@marcingardas/module-users": "^0.5.0"
     }
 }
