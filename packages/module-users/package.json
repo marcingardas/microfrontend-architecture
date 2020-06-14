@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/module-users",
-    "version": "0.4.4",
+    "version": "0.4.5",
     "main": "dist/main.js",
     "types": "dist/index.d.ts",
     "files": [
