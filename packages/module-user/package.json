@@ -2,7 +2,7 @@
     "name": "@marcingardas/module-user",
     "version": "0.4.4",
     "main": "dist/main.js",
-    "types": "dist/main.d.ts",
+    "types": "dist/index.d.ts",
     "files": [
         "dist"
     ],
@@ -37,7 +37,7 @@
         "webpack": "^4.43.0",
         "webpack-cli": "^3.3.11"
     },
-    "gitHead": "d062f9fc5983962a21a14e488575dddd4a12d7bb",
+    "gitHead": "4be4f4579c4e6887904317712be85b2933e78ece",
     "dependencies": {
         "@marcingardas/module-users": "^0.4.4"
     }
