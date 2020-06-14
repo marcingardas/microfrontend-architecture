@@ -15,7 +15,8 @@
     "scripts": {
         "build": "tsc -p tsconfig.build.json",
         "clean": "rm -rf ./dist",
-        "prepare": "yarn build"
+        "prepare": "yarn build",
+        "serve": "yarn build"
     },
     "devDependencies": {
         "typescript": "^3.9.3"

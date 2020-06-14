@@ -1,14 +1,14 @@
 # Microfrontend Architecture
 
 ## Usage
-Spin up application container and modules with:
+Spin up application containers and modules with:
 ```
-sh start.sh
+yarn serve
 ```
 
-If any of the ports is taken, reset them with:
+If any of the ports is taken, you can force reset them with:
 ```
-sudo sh resetPorts.sh
+sudo sh utils/forceResetPorts.sh
 ```
 
 ## Publishing

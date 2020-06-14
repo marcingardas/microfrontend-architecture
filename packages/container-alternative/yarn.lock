@@ -1278,10 +1278,10 @@
   resolved "https://npm.pkg.github.com/download/@marcingardas/module-settings/0.3.4/f43543207d635f1c12735106cb92cc267d885202048b9f43bf6097e920c02164#e26ac13571ce3a2b32d22bc523b9b5fdece9ad4b"
   integrity sha512-ukc1tXqHFgPce6L3Qwv/pFHD7qYbTJ6p/0SBDJbkHBa6Fpg2P9kKsjdB3twMdRdetR/SrkVYuU2f81VTD51Gww==
 
-"@marcingardas/module-user@^0.3.4":
-  version "0.3.4"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/module-user/0.3.4/aa931a100928a377c7dd0963ad2371248564e0b888e0751c6a9164fa0d1a2483#d44f8166a992f2a38d14432b628226765f67fa1a"
-  integrity sha512-IaRzblHJjSJKeV+dRr/S4J8Fh8c7swQL6bMMyaK5/ZUBld64KPEZ6aeoHuP1FteFhM0DcLQBNAhvSzqNsk6ihw==
+"@marcingardas/module-user@^0.3.5":
+  version "0.3.5"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/module-user/0.3.5/2dfaffe21134d0c6bcea6be80fe9e95e8f8dacdb8580188c63aa973cc3456c5f#dc5b7a3839263164f3ae6f09b6bf9eea42642272"
+  integrity sha512-mUlp7VKERW/5JFdur1PSdkoibptsbIsnjttXCKVJvCVEGt6PWDMVrfhMbXbK0wEHW6FfHXvRnTQGKF4hKue5Yw==
   dependencies:
     "@marcingardas/module-users" "^0.3.4"
 

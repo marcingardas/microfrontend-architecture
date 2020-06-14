@@ -9,6 +9,9 @@
         "type" : "git",
         "url": "ssh://git@github.com/@marcingardas/microfrontend-architecture.git"
     },
+    "scripts": {
+        "serve": "lerna exec --parallel -- yarn && lerna exec --parallel -- yarn serve"
+    },
     "devDependencies": {
         "lerna": "^3.21.0",
         "lite-server": "^2.5.4"
