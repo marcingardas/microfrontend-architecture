@@ -8,7 +8,7 @@ import reducers from './store/reducers'
 import { fetchUsers } from './store/actions'
 import App from './components/App'
 import { ModuleUsersAPI } from './api/ModuleUsersAPI'
-import { ModuleUsersAPIName } from './api/ModuleUsersAPIInterface'
+import { ModuleUsersAPIInterface, ModuleUsersAPIName } from './api/ModuleUsersAPIInterface'
 
 class ModuleUsers extends HTMLElement {
 	connectedCallback() {
@@ -30,3 +30,5 @@ class ModuleUsers extends HTMLElement {
 }
 
 window.customElements.define('module-users', ModuleUsers)
+
+export { ModuleUsersAPIInterface, ModuleUsersAPIName }

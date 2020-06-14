@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom'
 import { APIService } from '@marcingardas/communication'
 
 import { ModuleSettingsAPI } from './api/ModuleSettingsAPI'
-import { ModuleSettingsAPIName } from './api/ModuleSettingsAPIInterface'
+import { ModuleSettingsAPIInterface, ModuleSettingsAPIName } from './api/ModuleSettingsAPIInterface'
 import App from './components/App'
 
 class ModuleSettings extends HTMLElement {
@@ -20,3 +20,5 @@ class ModuleSettings extends HTMLElement {
 }
 
 window.customElements.define('module-settings', ModuleSettings);
+
+export { ModuleSettingsAPIInterface, ModuleSettingsAPIName }
