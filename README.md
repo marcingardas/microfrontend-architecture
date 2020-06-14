@@ -19,7 +19,7 @@ yarn lerna publish
 
 ## Architecture
 The application is composed of the following packages:
-- **container** - serving an index.html file which loads the modules
+- **container** - serving an index.html file which loads the modules and shared dependencies
 - **module-navigation** - responsible for menu section of application
 - **module-settings** - responsible for settings resource and page
 - **module-users** - responsible for users resource and page
