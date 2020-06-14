@@ -45,5 +45,9 @@ module.exports = {
     externals: {
         'react': 'React',
         'react-dom': 'ReactDOM'
+    },
+
+    output: {
+        filename: "index.js"
     }
 };
