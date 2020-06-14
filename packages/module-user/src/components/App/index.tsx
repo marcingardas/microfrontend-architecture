@@ -2,8 +2,8 @@ import * as React from 'react'
 import * as styles from './index.module.css'
 import { UrlService, UrlChangeListener, APIService } from '@marcingardas/communication'
 
-import { ModuleUsersAPIInterface, ModuleUsersAPIName } from '../../api/ModuleUsersAPIInterface'
-import { ModuleSettingsAPIInterface, ModuleSettingsAPIName } from '../../api/ModuleSettingsAPIInterface'
+import { ModuleUsersAPIInterface, ModuleUsersAPIName } from '@marcingardas/module-users/dist/api/ModuleUsersAPIInterface'
+import { ModuleSettingsAPIInterface, ModuleSettingsAPIName } from '@marcingardas/module-settings/dist/api/ModuleSettingsAPIInterface'
 
 type Props = {};
 type State = {
