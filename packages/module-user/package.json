@@ -1,6 +1,6 @@
 {
     "name": "@marcingardas/module-user",
-    "version": "0.3.5",
+    "version": "0.4.0",
     "main": "dist/main.js",
     "author": "marcingardas",
     "license": "MIT",
@@ -16,7 +16,7 @@
         "prepare": "yarn build"
     },
     "devDependencies": {
-        "@marcingardas/communication": "^0.3.1",
+        "@marcingardas/communication": "^0.4.0",
         "@types/react": "^16.9.35",
         "@types/react-dom": "^16.9.8",
         "css-loader": "1.0",
@@ -33,6 +33,6 @@
     },
     "gitHead": "7e765443f907bb207912f8f1a4104d5f3f20fa8b",
     "dependencies": {
-        "@marcingardas/module-users": "^0.3.4"
+        "@marcingardas/module-users": "^0.4.0"
     }
 }
