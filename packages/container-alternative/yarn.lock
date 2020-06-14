@@ -1268,27 +1268,27 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@marcingardas/module-navigation@^0.3.4":
-  version "0.3.4"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/module-navigation/0.3.4/5005fedd096da8911b13e302959a6c4211fb8c7edcc6db15993c2b58c8e5b998#fd8b17c33a43c8673df9c8b6b72bbc92fb6051fc"
-  integrity sha512-VVgPLM2xP0VooJSdLRha2WG14tuOzghj1SUYQ3hcc+6gmmJgVZD5UdczkYBsIrwFn9g045PZjU04hbHaDYAOwA==
+"@marcingardas/module-navigation@^0.4.7":
+  version "0.4.7"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/module-navigation/0.4.7/8faf117e4122abdc934000eb07007cd5c2ad95465129be1c9b9f4a2278f0b9b7#e4de11082225d058f0fa99c9a469e909006684c4"
+  integrity sha512-FSE82833DnO7fUB9Du0aSe75p7sMGsF2zot1THj120+UuAWgNxgN2hAMXbkarycdS9uzppbfWPh9PubaHE4m3g==
 
-"@marcingardas/module-settings@^0.3.4":
-  version "0.3.4"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/module-settings/0.3.4/f43543207d635f1c12735106cb92cc267d885202048b9f43bf6097e920c02164#e26ac13571ce3a2b32d22bc523b9b5fdece9ad4b"
-  integrity sha512-ukc1tXqHFgPce6L3Qwv/pFHD7qYbTJ6p/0SBDJbkHBa6Fpg2P9kKsjdB3twMdRdetR/SrkVYuU2f81VTD51Gww==
+"@marcingardas/module-settings@^0.4.7":
+  version "0.4.7"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/module-settings/0.4.7/2b20d09f9f6130b5d1da8a6af080937ef2f185f8ab37bf9099794b099af8a73b#65dd0974c359a3993303c1729f97bee7f7b70338"
+  integrity sha512-McWR7ijypVVSelg6+2pVDRzyoHp5koD1TRLRmgAoev4A9gM4ZccHfdVM5iFuZxFKdtTbej2ybE6x1zW3ia9W+Q==
 
-"@marcingardas/module-user@^0.3.5":
-  version "0.3.5"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/module-user/0.3.5/2dfaffe21134d0c6bcea6be80fe9e95e8f8dacdb8580188c63aa973cc3456c5f#dc5b7a3839263164f3ae6f09b6bf9eea42642272"
-  integrity sha512-mUlp7VKERW/5JFdur1PSdkoibptsbIsnjttXCKVJvCVEGt6PWDMVrfhMbXbK0wEHW6FfHXvRnTQGKF4hKue5Yw==
+"@marcingardas/module-user@^0.4.7":
+  version "0.4.7"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/module-user/0.4.7/fa42bc1aa2dec55b8961e99f313471764b5c3206135ec262317bdd65a320fb40#f8f3e002accc2279ee2f2f0259d42948646e3b85"
+  integrity sha512-tmW+bgSxQIOM2jragxB2gK4o6fzR3Q4oXE1xq+FeO65+zPb1kqvorPms091Jv8T5Ur7pqiOej7sLHmBISR0sLg==
   dependencies:
-    "@marcingardas/module-users" "^0.3.4"
+    "@marcingardas/module-users" "^0.4.7"
 
-"@marcingardas/module-users@^0.3.4":
-  version "0.3.4"
-  resolved "https://npm.pkg.github.com/download/@marcingardas/module-users/0.3.4/5ea00665728e2cf701c5cf922ac6303952dda19c3dc09b8ed930ab5cac7bacbb#452af2d7967764115a952cbd582169678783b0d0"
-  integrity sha512-TkGGD8UxzJb5uil6pN8MW+yycHgBnY5513ikoqBSlULWDcBbUTM3KNNH9/i/WVDnZcet3Fyg5skpwpZbBhmizw==
+"@marcingardas/module-users@^0.4.7":
+  version "0.4.7"
+  resolved "https://npm.pkg.github.com/download/@marcingardas/module-users/0.4.7/dbe345dc88c37a431c9a725fd08ae44c549a1da2329e34bfa38b1fb08463490a#e32cac0521e2d6eb3f17514c70f976920ce8026a"
+  integrity sha512-73vS70fA88JH+G6/yG+dGO3aCqAHJ0EWm8jYVT+fKn9JoL7hz0XmXgAqm02SyCHvCkDkU1CB6rX96/q+2Wobzw==
   dependencies:
     "@types/react-redux" "^7.1.9"
     react-redux "^7.2.0"

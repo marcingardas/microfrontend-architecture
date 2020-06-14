@@ -21,8 +21,6 @@
     },
     "devDependencies": {
         "@marcingardas/communication": "^0.4.7",
-        "@marcingardas/module-settings": "^0.4.7",
-        "@marcingardas/module-users": "^0.4.0",
         "@types/react": "^16.9.35",
         "@types/react-dom": "^16.9.8",
         "css-loader": "1.0",
